@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com"/>
+
+  <default revision="refs/tags/release-beta2"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="ament/ament_cmake" name="ament/ament_cmake" />
+  <project path="ament/ament_index" name="ament/ament_index" />
+  <project path="ament/ament_lint" name="ament/ament_lint" />
+  <project path="ament/ament_package" name="ament/ament_package" />
+  <project path="ament/ament_python" name="ament/ament_python" />
+  <project path="ament/ament_tools" name="ament/ament_tools" />
+  <project path="ament/gmock_vendor" name="ament/gmock_vendor" />
+  <project path="ament/gtest_vendor" name="ament/gtest_vendor" />
+  <project path="ament/osrf_pycommon" name="osrf/osrf_pycommon" revision="afa6d7a748e14a0fade9707a391389fa7a9ee68e" />
+  <project path="ament/uncrustify" name="ament/uncrustify" />
+  <project path="eProsima/Fast-CDR"  name="eProsima/Fast-CDR" revision="affa48d511a36351ef24d40029db1e8217be86b1" />
+  <project path="eProsima/Fast-RTPS"  name="eProsima/Fast-RTPS" revision="b96e02861239a1ca3d1cb91a4760bba4c1df3498" />
+  <project path="ros/class_loader"  name="ros/class_loader" revision="1f1793e3dc0b93430ba430d62574078d17c2c0ef" />
+  <project path="ros2/ament_cmake_ros"  name="ros2/ament_cmake_ros" />
+  <project path="ros2/common_interfaces"  name="ros2/common_interfaces" />
+  <project path="ros2/console_bridge"  name="ros2/console_bridge" />
+  <project path="ros2/demos"  name="ros2/demos" />
+  <project path="ros2/examples"  name="ros2/examples" />
+  <project path="ros2/example_interfaces"  name="ros2/example_interfaces" />
+  <project path="ros2/geometry2"  name="ros2/geometry2" />
+  <project path="ros2/launch"  name="ros2/launch" />
+  <project path="ros2/orocos_kinematics_dynamics"  name="ros2/orocos_kinematics_dynamics" />
+  <project path="ros2/poco_vendor"  name="ros2/poco_vendor" />
+  <project path="ros2/rcl"  name="ros2/rcl" />
+  <project path="ros2/rcl_interfaces"  name="ros2/rcl_interfaces" />
+  <!-- <project path="ros2/rclc"  name="ros2/rclc" /> -->
+  <project path="ros2/rclcpp"  name="ros2/rclcpp" />
+  <project path="ros2/rclpy"  name="ros2/rclpy" />
+  <project path="ros2/rcutils"  name="ros2/rcutils" />
+  <project path="ros2/realtime_support"  name="ros2/realtime_support" />
+  <project path="ros2/rmw"  name="ros2/rmw" />
+  <project path="ros2/rmw_connext"  name="ros2/rmw_connext" />
+  <project path="ros2/rmw_fastrtps"  name="ros2/rmw_fastrtps" />
+  <project path="ros2/rmw_implementation"  name="ros2/rmw_implementation" />
+  <project path="ros2/rmw_opensplice"  name="ros2/rmw_opensplice" />
+  <project path="ros2/robot_model"  name="ros2/robot_model" />
+  <project path="ros2/robot_state_publisher"  name="ros2/robot_state_publisher" />
+  <project path="ros2/ros1_bridge"  name="ros2/ros1_bridge" />
+  <project path="ros2/ros2cli"  name="ros2/ros2cli" />
+  <project path="ros2/rosidl"  name="ros2/rosidl" />
+  <project path="ros2/rosidl_dds"  name="ros2/rosidl_dds" />
+  <project path="ros2/rosidl_typesupport"  name="ros2/rosidl_typesupport" />
+  <project path="ros2/sros2"  name="ros2/sros2" />
+  <project path="ros2/system_tests"  name="ros2/system_tests" />
+  <project path="ros2/tinyxml_vendor"  name="ros2/tinyxml_vendor" />
+  <project path="ros2/tlsf"  name="ros2/tlsf" />
+  <!-- <project path="ros2/tutorials"  name="ros2/tutorials" /> -->
+  <project path="ros2/urdfdom"  name="ros2/urdfdom" />
+  <project path="ros2/urdfdom_headers"  name="ros2/urdfdom_headers" />
+  <project path="ros2/vision_opencv"  name="ros2/vision_opencv" />
+
+</manifest>
